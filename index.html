@@ -436,13 +436,18 @@
                             <textarea class="comment" name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
                         </div>
 
-                           
-                            
-                            <label class="checkbox-label" for="policy">
-                                <input class="checkbox"  type="checkbox" name="" value="policy"/>
-                               <span> Соглашаюсь с рассылкой и принимаю</span> <a href="#"> <span>Условия договора</span> </a>
+
+                        <div class="checkbox-field">
+                            <label class="checkbox-label">
+                                <input class="checkbox-input"  type="checkbox" name="checkbox" />
+                                    <svg class="check-icon" width="16px" height="15px">
+                                        <use href="./img/sprite.svg#icon-icon-check"></use>
+                                      </svg> 
+                                   Соглашаюсь с рассылкой и принимаю
+                                   <a class="checkbox-link " href="#">Условия договора</a>
                             </label>
-                        
+                        </div>
+                            
             
                             <button class="modal-btn" type="submit">Оставить заявку</button>
                            
@@ -503,23 +508,27 @@
         </ul>
         </div>
         
-        <div class="footer-form-group">
-            <b class="footer-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-              <div class="footer-group">
-                <form class="footer-form">
+            
+             <div class="footer-form-group">
+                <b class="footer-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+             <form class="footer-form">
                     <input class="footer-input" type="email" name="footer-email" placeholder="E-mail">
-                </form>
-                <!-- <div class="btn-footer"> -->
-                <button class="footer-button" type="submit">Подписаться
-                    <!-- <svg class="btn-svg">
-                        <use href="./img/sprite.svg#icon-airplane" width="24px" height="24px"></use>
-                    </svg> -->
-                </button>
-                    
-                <!-- </div> -->
                 
-              </div>
+           
+
+                 <button class="footer-button" type="submit">
+                     Подписаться
+                  <div class="btn-footer">
+                       <svg class="btn-svg">
+                        <use href="./img/sprite.svg#icon-airplane"></use>
+                       </svg>
+                   </div>
+                 </button>
+            </form>
             </div>
+                
+
+            
             
         </div>
         </div>
