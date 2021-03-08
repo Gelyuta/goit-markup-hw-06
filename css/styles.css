@@ -718,7 +718,9 @@ body {
 
 .btn-svg {
   display: block;
-  margin: 0px 13px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 10px;
 
   width: 24px;
   height: 24px;
