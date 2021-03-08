@@ -697,7 +697,8 @@ body {
 }
 
 .footer-button {
- 
+  padding: 0;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -716,17 +717,14 @@ body {
 }
 
 .btn-svg {
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
-  margin-left: 10px;
+  display: block;
+  margin: 0px 13px;
+
   width: 24px;
   height: 24px;
 }
 
 
-  
-
-  
 
 /*Модальное окно*/
 .backdrop {
@@ -790,17 +788,15 @@ body {
 
 }
 
-.modal-form {
-  display: block;
+.modal-form{
   margin: 40px; 
-  
+  outline: solid tomato;
 }
 
 
 .form {
-
-  max-width: 448px;
   padding: 0;
+  margin: 0;
   
   font-style: normal;
   font-weight: normal;
@@ -818,7 +814,6 @@ body {
 }
 
 .form-field input{
-  display: ;
   margin: 0;
   padding: 11px 12px 11px 42px;
   border: 1px solid var(--border-input);
@@ -847,20 +842,8 @@ body {
   line-height: 1.142;
   letter-spacing: 0.01em;
   color: var(--text-gray-op05);
-  max-width: 448px;
-  max-height: 40px;
 }
 
-input {
-  max-width: 448px;
-  padding: 0;
-  
-}
-
-.form-input {
-  width: 100%;
-  max-height: 40px;
-}
 
 .form-input:focus ~ .form-svg {
   fill: var(--btn-blue);
@@ -887,6 +870,10 @@ input {
 
 .form-icon {
   position: relative;
+}
+
+.form-icon input {
+  width: 448px;
 }
 
 
