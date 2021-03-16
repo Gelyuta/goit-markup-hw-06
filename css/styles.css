@@ -542,7 +542,7 @@ body {
   position: absolute;
   bottom: 0;
 
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .description:hover {
@@ -560,8 +560,7 @@ body {
 
   font-weight: bold;
   font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  line-height: 36px;
 }
 
 .projects .projects-text {
